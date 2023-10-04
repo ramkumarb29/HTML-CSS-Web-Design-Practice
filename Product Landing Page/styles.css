@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    background-color: #eee;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+}
+
+#header-img {
+    width: 500px;
+    height: 70px;
+}
+
+.navigation {
+   position: fixed;
+   top: 0;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.navigation > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 35vw;
+}
+
+.navigation > ul li {
+    
+}
+
+.input {
+    position: absolute;
+    margin-top: 100px;
+}
