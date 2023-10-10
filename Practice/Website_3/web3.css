@@ -1,0 +1,134 @@
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+
+:root {
+    --FONT_FAMILY: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --FONT_SIZE: 1.2rem;
+    --FONT_SIZE1: 0.8rem;
+    --BACKGROUND_COLOR: #040D12;
+    --BACKGROUND_COLOR1: #E1ECC8;
+    --COLOR: #93B1A6;
+    --COLOR1: gray;
+    --BORDER_COLOR: #78D6C6;
+}
+
+/* || GENERAL STYLE */
+
+html {
+    font-family: var(--FONT_FAMILY);
+    font-size: var(--FONT_SIZE);
+}
+
+/* || NAVIGATION BAR */
+
+.navBar {
+    background-color: var(--BACKGROUND_COLOR);
+    color: var(--COLOR);
+    padding: 10px;
+    border: 2px solid var(--BORDER_COLOR);
+    border-radius: 5px 5px 0 0;
+}
+
+.navBar h1, .navBar ul, .navBar ul li {
+    display: inline;
+}
+
+.navBar h1  {
+    padding-left: 20px;
+}
+
+.navBar ul {
+    margin-left: 60%;
+}
+
+.navBar ul li {
+    margin-right: 5px;
+    color: var(--COLOR1);
+}
+
+.navBar ul li:hover {
+    color: var(--COLOR);
+    cursor: pointer;
+}
+
+/* || SEARCH BAR */
+
+.searchBar input {
+    width: 60%;
+    height: 40px;
+    margin-top: 30px;
+    border: 1.5px solid var(--BORDER_COLOR);
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.searchBar {
+    text-align: center;
+}
+
+/* || PRODUCT LISTING */
+
+.productsList {
+    text-align: center;
+}
+
+.box {
+    margin-top: 30px;
+    border: 2px solid var(--BORDER_COLOR);
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+}
+
+.box p {
+    font-size: var(--FONT_SIZE1);
+}
+
+.box:hover {
+    background-color: var(--BACKGROUND_COLOR);
+    color: var(--COLOR);
+}
+
+/* || ABOUT */
+
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+.about p {
+    font-size: var(--FONT_SIZE1);
+    padding: 10px;
+}
+
+/* || FOOTER STYLE */
+
+.contact {
+    background-color: var(--BACKGROUND_COLOR);
+    color: var(--COLOR);
+    text-align: center;
+}
+
+.contact h2 {
+    padding: 10px;
+}
+
+.contact p {
+    font-size: var(--FONT_SIZE1);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+

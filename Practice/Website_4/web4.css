@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+/* || RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s ease;
+}
+
+/* || VARIABLES */
+
+:root {
+    --FONT_FAMILY:'Merriweather', serif;
+    --FONT_SIZE: 1.2 rem;
+}
+
+/* || GENERAL STYLE */
+
+html {
+    font-family: var(--FONT_FAMILY);
+    font-size: var(--FONT_SIZE);
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+/* || HEADER STYLE */
+
