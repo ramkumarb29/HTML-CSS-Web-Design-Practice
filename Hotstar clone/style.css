@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navigation style */
+
+.navigation {
+    width: 5%;
+    height: 100vh;
+    background-color: #18161f;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+}
+
+.logo-img {
+    width: 35px;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    row-gap: 10px;
+}
+
+.nav-link {
+    color: white;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.nav-img {
+    width: 25px;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Fixed banner style */
+
+.main-page {
+    width: 95%;
+    position: relative;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    overflow: hidden;
+}
+
+.banner-overlay-1 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #18161f 20%, transparent, transparent);
+    position: absolute;
+}
+
+.banner-overlay-2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #18161f 3%, transparent, transparent);
+    position: absolute;
+}
+
+.banner-img {
+    width: 80%;
+   height: 90vh;
+}
+
+/* movie banner detail style */
+
+.main-area {
+    width: 100%;
+    position: absolute;
+    margin-top: 35vh;
+}
+
+.banner-movie-detail {
+    width: 100%;
+    padding: 5px 0;
+}
+
+.detail {
+    width: 32%;
+    padding: 12px;
+    height: 100%;
+}
+
+.title-img {
+    width: 100%;
+}
+
+.movie-detail {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: white;
+}
+
+.dot {
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.badge {
+    padding: 3px 7px;
+    border-radius: 5px;
+    background-color: hsla(0,0%,100%,.2);
+}
+
+.mov-description {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 20px;
+    opacity: 0.7;
+    color: white;
+}
+
+.tag {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.call-to-action {
+    width: 100%;
+    display: flex;
+    column-gap: 12px;
+    margin-top: 30px;
+}
+
+.cta-big {
+    padding: 12px 100px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: hsla(0,0%,100%,.08);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.cta-small {
+    padding: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: hsla(0,0%,100%,.08);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.cta-big:hover, .cta-small:hover {
+    background-color: hsla(0,0%,100%,.3);
+    transform: scale(1.01);
+}
