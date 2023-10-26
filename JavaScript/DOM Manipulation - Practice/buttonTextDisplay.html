@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <h1 id="text"></h1>
+    <button id="button1" onclick="update(event)">Raji</button>
+    <button id="button2" onclick="update(event)">Ram</button>
+    <button id="button3" onclick="update(event)">Priya</button>
+
+    <script>
+        function update(event) {  //event is having all the information about the button which helps to give whatever the information we need
+            let result = document.getElementById("text");
+            result.textContent = event.target.textContent; //target will target the button and textcontent retrieves text having content    
+        }
+    </script>
+</body>
+</html>

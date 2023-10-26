@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="add" onclick="displayText()">Add</button>
+    <div id="result"></div>
+    <script>
+        function displayText() {
+            /* let h1 = document.getElementById("result");
+            h1.textContent = "Hello"; //prints Hello one time within h1
+            h1.append("hello"); //it adds hello many times when you click button */
+
+            //crate element and add text
+
+            let div = document.getElementById("result");
+            let listItem = document.createElement("h1"); //<h1></h1> inside div tag
+            listItem.textContent = "Hello"; //<h1>Hello</h1>
+
+            div.append(listItem); //Prints Hello whenever you click button
+        }
+    </script>
+</body>
+</html>

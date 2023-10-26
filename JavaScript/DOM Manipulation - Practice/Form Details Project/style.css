@@ -1,0 +1,87 @@
+/* ||FONT FAMILY URL */
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway&family=Young+Serif&display=swap');
+
+/* ||RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Young Serif', serif;
+    font-size: 1.2rem;
+}
+
+/* || STUDENT FORM STYLE */
+
+.heading {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.formContainer { 
+    margin-left: 40%;
+} 
+
+label { 
+    display: block; 
+    margin-top: 10px; 
+} 
+
+input, 
+textarea { 
+    width: 300px; 
+    padding: 8px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-family: inherit;
+} 
+
+button { 
+    display: block;
+    width: 40%;
+    margin-top: 10px;
+    padding: 8px 16px; 
+    background-color: #4CAF50; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-family: inherit;
+} 
+
+button:hover { 
+    background-color: #45a049; 
+} 
+
+/* ||STUDENT DATA STYLE */
+
+table { 
+    border-collapse: collapse; 
+    width: 80%; 
+    margin: 30px auto;
+
+} 
+
+th, 
+td { 
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: left; 
+} 
+
+th { 
+    background-color: #4CAF50; 
+    color: #fff; 
+} 
+
+table button {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: inherit;
+}
