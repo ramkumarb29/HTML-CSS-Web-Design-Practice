@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Learning HTML"> 
+        <meta name="author" content="Ram">
+        <title>Practice page</title>
+        <link rel="icon" href="Photos/Practice.png" type="image/png">
+    </head>
+    <body>
+        <header>
+            <h1>Learning page - HTML</h1>
+        <hr>
+            <nav aria-label="primary-navigation">
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="#images">Image</a></li>
+                    <li><a href="#ch1">Chapter 1</a></li>
+                    <li><a href="#ch2">Chapter 2</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <article>
+                <h2>Introduction</h2>
+                <section id="images">
+                    <h2>Sample Images</h2>
+                    <img src="Photos/HTML-Full-Form.jpg" alt="HTML full form" title="page intro" width="640" height="360" loading="lazy">
+                    <figure>
+                        <figcaption>HTML Logo</figcaption>
+                        <img src="Photos/HTMLlogo.png" alt="HTML Logo" title="HTML" width="640" height="360" loading="lazy">
+                    </figure>
+                    <figure>
+                        <figcaption>Sample code:</figcaption>
+                        <code>&lt;h1&gt;Hello World!&lt;h1&gt;</code>
+                    </figure>
+                </section>
+                <hr>
+                <section>
+                    <h2>Learning Time</h2>
+                    <aside>
+                        <details>
+                            <summary>Guess the <mark>number of hours </mark>I code per day</summary>
+                            <p>I start code at <time datetime="08:00">8 am </time>and I code <time datetime="PT3H">3 hours </time>every morning</p>
+                        </details>
+                    </aside>
+                </section>
+                <table>
+                    <caption>My Learning Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td><time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time></td>
+                            <td>Write code</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td><time datetime="11:00">11 am</time>-<time datetime="12:00">12 pm</time></td>
+                            <td>Lunch break</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Afternoon</th>
+                            <td><time datetime="12:00">12 pm</time>-<time datetime="15:00">3 pm</time></td>
+                            <td>Write code</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td rowspan="2">All Other time</td>
+                            <td>Free Time</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep time</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Eat, Sleep and Code Everyday</td>
+                        </tr>
+                    </tfoot>
+                </table>
+                <hr>
+                <Section id="ch1">
+                    <h2>Chapter 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor non tempora minus quod. Quos eligendi, ullam, laudantium illo sed est veniam, explicabo a sint molestias ipsam iure architecto. Adipisci!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi at repellat error expedita ab nobis quos odit facere officia harum quam, eveniet in minus quia temporibus, dolores asperiores ipsum optio!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora accusantium, atque molestias suscipit ut, sit dignissimos dolores hic dolor cupiditate enim, blanditiis quas ducimus! Ipsum voluptas delectus provident quaerat fuga?</p>
+                </Section>
+                <hr>
+                <section id="ch2">
+                    <h2>Chapter 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi dolor non tempora minus quod. Quos eligendi, ullam, laudantium illo sed est veniam, explicabo a sint molestias ipsam iure architecto. Adipisci!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi at repellat error expedita ab nobis quos odit facere officia harum quam, eveniet in minus quia temporibus, dolores asperiores ipsum optio!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora accusantium, atque molestias suscipit ut, sit dignissimos dolores hic dolor cupiditate enim, blanditiis quas ducimus! Ipsum voluptas delectus provident quaerat fuga?</p>
+                </section>
+            </article>
+            <hr>
+            <article id="contact">
+                <h2>Contact me:</h2>
+                <form>
+                    <fieldset>
+                        <legend>Provide Your Information</legend>
+                        <p>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Enter Your First Name" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Enter Your Last Name" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Enter Your Password" required>
+                        </p>
+                        <p>
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone" autocomplete="on" required pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+                        </p>
+                        <p>
+                            <label for="decade">Your Favorite Decade:</label>
+                            <input type="number" name="decade" id="decade" placeholder="Your Favorite Decade" min="1980" max="2020" value="2020" step="10">
+                        </p>
+                        <p>
+                            <label for="content">Favorite Programming Language:</label>
+                            <select name="content" id="content" multiple size="2">
+                                <optgroup label="Backend">
+                                    <option value="java">Java</option>
+                                    <option value="C">C</option>
+                                    <option value="python" selected>Python</option>
+                                </optgroup>
+                                <optgroup label="Frontend">
+                                    <option value="reactJS">ReactJS</option>
+                                    <option value="nodeJS">NodeJS</option>
+                                    <option value="angular">Angular</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="contents">Favorite Content from YouTube:</label>
+                            <input type="text" name="contents" id="contents" list="content-list">
+                            <datalist id="content-list">
+                                <option value="Backend">
+                                <option value="Frontend">
+                                <option value="AI">
+                                <option value="Blockchain">
+                            </datalist>
+                        </p>
+                        <fieldset>
+                            <legend>Your Favorite Hobby:</legend>
+                                <p>
+                                    <input type="radio" name="hobby" id="writingcode" value="Writing code">
+                                    <label for="writingcode">Writing code</label>
+                                
+                                    <input type="radio" name="hobby" id="watchingtutorials" value="watchingtutorials">
+                                    <label for="watchingtutorials">Watching Tutorials</label>
+            
+                                    <input type="radio" name="hobby" id="others" value="others">
+                                    <label for="others">Others</label>
+                                </p>
+                        </fieldset>
+                        <!-- <fieldset>
+                            <legend>Your Favorite Hobby:</legend>
+                                <p>
+                                    <input type="checkbox" name="hobbies" id="writing code" value="Writing code">
+                                    <label for="writingcode">Writing code</label>
+                                
+                                    <input type="checkbox" name="hobbies" id="watchingtutorials" value="watchingtutorials">
+                                    <label for="watchingtutorials">Watching Tutorials</label>
+
+                                    <input type="checkbox" name="hobbies" id="other" value="other">
+                                    <label for="other">Others</label>
+                                </p>
+                        </fieldset> -->
+                        <p>
+                            <label for="message">Type your message:</label>
+                            <textarea name="message" id="message" rows="2" cols="30" placeholder="Provide your comments"></textarea>
+                        </p>
+                    </fieldset>
+                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+        </main>
+        <hr>
+        <footer>
+            <p><a href="#">Back to top</a></p>
+        </footer>
+    </body>
+</html>
